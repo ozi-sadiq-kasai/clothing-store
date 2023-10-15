@@ -1,10 +1,7 @@
 import React from 'react';
 
 const CartItem = () => {
-  return <div>CartItem
-
-   <h1>cart</h1>
-  </div>;
+  return <div>CartItem</div>;
 };
 
 export default CartItem;
