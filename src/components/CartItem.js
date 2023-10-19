@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import { useContext } from 'react';
+import { useContext} from 'react';
 import {IoMdAdd, IoMdClose,IoMdRemove} from 'react-icons/io'
 // import cart context
 import {CartContext} from '../contexts/CartContext'
@@ -35,7 +35,7 @@ const {id,title,image,price,amount} = item
         {/* qty */}
         <div className='flex flex-1 max-w-[100px] items-center h-full text-primary font-medium border'>
          {/* minus icon */}
-         <div className=' flex flex-1 justify-center items-center h-full cursor-pointer'>
+         <div className='flex flex-1 justify-center items-center h-full cursor-pointer'>
           <IoMdRemove onClick={()=>{decreaseAmount(id)}}/>
          </div>
          {/* amount */}
